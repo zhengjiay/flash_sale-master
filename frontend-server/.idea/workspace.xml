@@ -1,0 +1,583 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="fa969637-89de-4688-b7b8-b95fadddfa6e" name="Changes" comment="springcloude demo">
+      <change afterPath="$PROJECT_DIR$/../.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cn/wolfcode/FrontendServerApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/assets/css/commodityDetails.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/assets/css/header.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/assets/css/index.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/assets/css/login.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/assets/css/myOder.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/assets/image/bg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/assets/image/details-img1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/assets/image/details-img2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/assets/image/fdetails-img3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/assets/image/header_textV2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/assets/image/ig.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/assets/image/ig1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/assets/image/img.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/assets/image/img1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/assets/image/img2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/assets/image/img3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/assets/image/img4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/assets/image/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/assets/image/price-bg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/assets/image/search.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/assets/image/service-icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/assets/image/sprite.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/assets/image/userArrow.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/assets/js/ajaxHttp.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/assets/js/commodityDetails.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/assets/js/header.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/assets/js/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/assets/js/jquery.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/assets/js/login.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/assets/js/myOder.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/assets/js/socket.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/assets/js/template.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/assets/layui/css/layui.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/assets/layui/css/layui.mobile.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/assets/layui/css/modules/code.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/assets/layui/css/modules/laydate/default/laydate.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/assets/layui/css/modules/layer/default/icon-ext.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/assets/layui/css/modules/layer/default/icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/assets/layui/css/modules/layer/default/layer.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/assets/layui/css/modules/layer/default/loading-0.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/assets/layui/css/modules/layer/default/loading-1.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/assets/layui/css/modules/layer/default/loading-2.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/assets/layui/font/iconfont.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/assets/layui/font/iconfont.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/assets/layui/font/iconfont.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/assets/layui/font/iconfont.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/assets/layui/font/iconfont.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/assets/layui/images/face/0.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/assets/layui/images/face/1.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/assets/layui/images/face/10.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/assets/layui/images/face/11.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/assets/layui/images/face/12.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/assets/layui/images/face/13.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/assets/layui/images/face/14.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/assets/layui/images/face/15.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/assets/layui/images/face/16.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/assets/layui/images/face/17.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/assets/layui/images/face/18.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/assets/layui/images/face/19.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/assets/layui/images/face/2.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/assets/layui/images/face/20.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/assets/layui/images/face/21.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/assets/layui/images/face/22.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/assets/layui/images/face/23.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/assets/layui/images/face/24.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/assets/layui/images/face/25.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/assets/layui/images/face/26.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/assets/layui/images/face/27.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/assets/layui/images/face/28.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/assets/layui/images/face/29.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/assets/layui/images/face/3.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/assets/layui/images/face/30.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/assets/layui/images/face/31.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/assets/layui/images/face/32.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/assets/layui/images/face/33.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/assets/layui/images/face/34.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/assets/layui/images/face/35.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/assets/layui/images/face/36.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/assets/layui/images/face/37.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/assets/layui/images/face/38.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/assets/layui/images/face/39.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/assets/layui/images/face/4.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/assets/layui/images/face/40.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/assets/layui/images/face/41.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/assets/layui/images/face/42.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/assets/layui/images/face/43.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/assets/layui/images/face/44.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/assets/layui/images/face/45.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/assets/layui/images/face/46.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/assets/layui/images/face/47.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/assets/layui/images/face/48.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/assets/layui/images/face/49.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/assets/layui/images/face/5.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/assets/layui/images/face/50.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/assets/layui/images/face/51.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/assets/layui/images/face/52.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/assets/layui/images/face/53.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/assets/layui/images/face/54.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/assets/layui/images/face/55.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/assets/layui/images/face/56.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/assets/layui/images/face/57.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/assets/layui/images/face/58.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/assets/layui/images/face/59.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/assets/layui/images/face/6.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/assets/layui/images/face/60.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/assets/layui/images/face/61.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/assets/layui/images/face/62.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/assets/layui/images/face/63.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/assets/layui/images/face/64.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/assets/layui/images/face/65.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/assets/layui/images/face/66.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/assets/layui/images/face/67.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/assets/layui/images/face/68.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/assets/layui/images/face/69.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/assets/layui/images/face/7.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/assets/layui/images/face/70.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/assets/layui/images/face/71.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/assets/layui/images/face/8.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/assets/layui/images/face/9.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/assets/layui/lay/modules/carousel.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/assets/layui/lay/modules/code.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/assets/layui/lay/modules/colorpicker.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/assets/layui/lay/modules/element.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/assets/layui/lay/modules/flow.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/assets/layui/lay/modules/form.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/assets/layui/lay/modules/jquery.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/assets/layui/lay/modules/laydate.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/assets/layui/lay/modules/layedit.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/assets/layui/lay/modules/layer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/assets/layui/lay/modules/laypage.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/assets/layui/lay/modules/laytpl.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/assets/layui/lay/modules/mobile.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/assets/layui/lay/modules/rate.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/assets/layui/lay/modules/slider.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/assets/layui/lay/modules/table.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/assets/layui/lay/modules/transfer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/assets/layui/lay/modules/tree.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/assets/layui/lay/modules/upload.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/assets/layui/lay/modules/util.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/assets/layui/layui.all.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/assets/layui/layui.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/commodityDetails.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/header.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/img/p1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/img/p10.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/img/p11.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/img/p12.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/img/p13.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/img/p14.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/img/p15.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/img/p16.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/img/p17.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/img/p18.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/img/p19.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/img/p2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/img/p20.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/img/p3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/img/p4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/img/p5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/img/p6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/img/p7.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/img/p8.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/img/p9.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/login.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/order_detail.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-parent/api-gateway/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-parent/api-gateway/src/main/java/cn/wolfcode/ApiGatewayApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-parent/api-gateway/src/main/java/cn/wolfcode/config/CorsConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-parent/api-gateway/src/main/java/cn/wolfcode/config/GatewayConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-parent/api-gateway/src/main/java/cn/wolfcode/filters/CommonFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-parent/api-gateway/src/main/resources/bootstrap.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-parent/canal-client/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-parent/canal-client/src/main/java/cn/wolfcode/CanalClientApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-parent/canal-client/src/main/resources/bootstrap.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-parent/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-parent/shop-common/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-parent/shop-common/src/main/java/cn/wolfcode/common/constants/CommonConstants.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-parent/shop-common/src/main/java/cn/wolfcode/common/domain/UserInfo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-parent/shop-common/src/main/java/cn/wolfcode/common/exception/BusinessException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-parent/shop-common/src/main/java/cn/wolfcode/common/exception/CommonControllerAdvice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-parent/shop-common/src/main/java/cn/wolfcode/common/web/CodeMsg.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-parent/shop-common/src/main/java/cn/wolfcode/common/web/CommonCodeMsg.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-parent/shop-common/src/main/java/cn/wolfcode/common/web/Result.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-parent/shop-common/src/main/java/cn/wolfcode/common/web/anno/RequireLogin.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-parent/shop-common/src/main/java/cn/wolfcode/common/web/interceptor/FeignRequestInterceptor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-parent/shop-common/src/main/java/cn/wolfcode/common/web/interceptor/RequireLoginInterceptor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-parent/shop-common/src/main/java/cn/wolfcode/redis/CommonRedisKey.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-parent/shop-provider-api/intergral-api/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-parent/shop-provider-api/intergral-api/src/main/java/cn/wolfcode/domain/AccountTransaction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-parent/shop-provider-api/intergral-api/src/main/java/cn/wolfcode/domain/OperateIntergralVo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-parent/shop-provider-api/intergral-api/src/main/java/cn/wolfcode/domain/UsableIntegral.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-parent/shop-provider-api/pay-api/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-parent/shop-provider-api/pay-api/src/main/java/cn/wolfcode/domain/PayVo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-parent/shop-provider-api/pay-api/src/main/java/cn/wolfcode/domain/RefundVo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-parent/shop-provider-api/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-parent/shop-provider-api/product-api/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-parent/shop-provider-api/product-api/src/main/java/cn/wolfcode/domain/Product.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-parent/shop-provider-api/seckill-api/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-parent/shop-provider-api/seckill-api/src/main/java/cn/wolfcode/domain/OrderInfo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-parent/shop-provider-api/seckill-api/src/main/java/cn/wolfcode/domain/PayLog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-parent/shop-provider-api/seckill-api/src/main/java/cn/wolfcode/domain/RefundLog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-parent/shop-provider-api/seckill-api/src/main/java/cn/wolfcode/domain/SeckillProduct.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-parent/shop-provider-api/seckill-api/src/main/java/cn/wolfcode/domain/SeckillProductVo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-parent/shop-provider-api/seckill-api/src/main/java/cn/wolfcode/redis/SeckillRedisKey.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-parent/shop-provider/aggregator-server/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-parent/shop-provider/aggregator-server/src/main/java/cn/wolfcode/AggregatorApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-parent/shop-provider/aggregator-server/src/main/java/cn/wolfcode/config/ThreadPoolConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-parent/shop-provider/aggregator-server/src/main/java/cn/wolfcode/service/AggregatorService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-parent/shop-provider/aggregator-server/src/main/java/cn/wolfcode/web/feign/IntegralFeignApi.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-parent/shop-provider/aggregator-server/src/main/java/cn/wolfcode/web/feign/PayFeignApi.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-parent/shop-provider/aggregator-server/src/main/java/cn/wolfcode/web/feign/ProductFeignApi.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-parent/shop-provider/aggregator-server/src/main/java/cn/wolfcode/web/feign/fallback/IntegralFeignFallback.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-parent/shop-provider/aggregator-server/src/main/java/cn/wolfcode/web/feign/fallback/PayFeignApiFallback.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-parent/shop-provider/aggregator-server/src/main/java/cn/wolfcode/web/feign/fallback/ProductFeignFallback.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-parent/shop-provider/aggregator-server/src/main/resources/bootstrap.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-parent/shop-provider/intergral-server/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-parent/shop-provider/intergral-server/src/main/java/cn/wolfcode/IntergralApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-parent/shop-provider/intergral-server/src/main/java/cn/wolfcode/mapper/AccountTransactionMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-parent/shop-provider/intergral-server/src/main/java/cn/wolfcode/mapper/AccountTransactionMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-parent/shop-provider/intergral-server/src/main/java/cn/wolfcode/mapper/UsableIntegralMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-parent/shop-provider/intergral-server/src/main/java/cn/wolfcode/mapper/UsableIntegralMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-parent/shop-provider/intergral-server/src/main/java/cn/wolfcode/service/IUsableIntegralService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-parent/shop-provider/intergral-server/src/main/java/cn/wolfcode/service/impl/UsableIntegralServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-parent/shop-provider/intergral-server/src/main/java/cn/wolfcode/web/advice/IntergralControllerAdvice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-parent/shop-provider/intergral-server/src/main/java/cn/wolfcode/web/config/WebConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-parent/shop-provider/intergral-server/src/main/java/cn/wolfcode/web/controller/IntegralController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-parent/shop-provider/intergral-server/src/main/java/cn/wolfcode/web/msg/IntergralCodeMsg.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-parent/shop-provider/intergral-server/src/main/resources/bootstrap.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-parent/shop-provider/job-server/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-parent/shop-provider/job-server/src/main/java/cn/wolfcode/JobApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-parent/shop-provider/job-server/src/main/java/cn/wolfcode/config/BusinessJobConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-parent/shop-provider/job-server/src/main/java/cn/wolfcode/config/RegistryCenterConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-parent/shop-provider/job-server/src/main/java/cn/wolfcode/job/InitSeckillProductJob.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-parent/shop-provider/job-server/src/main/java/cn/wolfcode/job/UserCacheJob.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-parent/shop-provider/job-server/src/main/java/cn/wolfcode/redis/JobRedisKey.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-parent/shop-provider/job-server/src/main/java/cn/wolfcode/util/ElasticJobUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-parent/shop-provider/job-server/src/main/java/cn/wolfcode/web/config/WebConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-parent/shop-provider/job-server/src/main/java/cn/wolfcode/web/feign/SeckillProductFeignAPI.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-parent/shop-provider/job-server/src/main/java/cn/wolfcode/web/feign/fallback/SeckillProductFeignFallback.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-parent/shop-provider/job-server/src/main/resources/bootstrap.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-parent/shop-provider/pay-server/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-parent/shop-provider/pay-server/src/main/java/cn/wolfcode/PayApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-parent/shop-provider/pay-server/src/main/java/cn/wolfcode/config/AlipayConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-parent/shop-provider/pay-server/src/main/java/cn/wolfcode/config/AlipayProperties.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-parent/shop-provider/pay-server/src/main/java/cn/wolfcode/web/advice/PayControllerAdvice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-parent/shop-provider/pay-server/src/main/java/cn/wolfcode/web/config/WebConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-parent/shop-provider/pay-server/src/main/java/cn/wolfcode/web/controller/AlipayController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-parent/shop-provider/pay-server/src/main/java/cn/wolfcode/web/msg/PayCodeMsg.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-parent/shop-provider/pay-server/src/main/resources/bootstrap.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-parent/shop-provider/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-parent/shop-provider/product-server/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-parent/shop-provider/product-server/src/main/java/cn/wolfcode/ProductApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-parent/shop-provider/product-server/src/main/java/cn/wolfcode/mapper/ProductMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-parent/shop-provider/product-server/src/main/java/cn/wolfcode/mapper/ProductMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-parent/shop-provider/product-server/src/main/java/cn/wolfcode/service/IProductService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-parent/shop-provider/product-server/src/main/java/cn/wolfcode/service/impl/ProductServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-parent/shop-provider/product-server/src/main/java/cn/wolfcode/web/advice/ProductControllerAdvice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-parent/shop-provider/product-server/src/main/java/cn/wolfcode/web/config/WebConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-parent/shop-provider/product-server/src/main/java/cn/wolfcode/web/controller/ProductController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-parent/shop-provider/product-server/src/main/java/cn/wolfcode/web/feign/ProductFeignClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-parent/shop-provider/product-server/src/main/java/cn/wolfcode/web/msg/ProductCodeMsg.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-parent/shop-provider/product-server/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-parent/shop-provider/product-server/src/main/resources/bootstrap.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-parent/shop-provider/seckill-server/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-parent/shop-provider/seckill-server/src/main/java/cn/wolfcode/SeckillApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-parent/shop-provider/seckill-server/src/main/java/cn/wolfcode/lock/RedisDistributedLock.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-parent/shop-provider/seckill-server/src/main/java/cn/wolfcode/mapper/OrderInfoMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-parent/shop-provider/seckill-server/src/main/java/cn/wolfcode/mapper/OrderInfoMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-parent/shop-provider/seckill-server/src/main/java/cn/wolfcode/mapper/PayLogMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-parent/shop-provider/seckill-server/src/main/java/cn/wolfcode/mapper/PayLogMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-parent/shop-provider/seckill-server/src/main/java/cn/wolfcode/mapper/RefundLogMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-parent/shop-provider/seckill-server/src/main/java/cn/wolfcode/mapper/RefundLogMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-parent/shop-provider/seckill-server/src/main/java/cn/wolfcode/mapper/SeckillProductMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-parent/shop-provider/seckill-server/src/main/java/cn/wolfcode/mapper/SeckillProductMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-parent/shop-provider/seckill-server/src/main/java/cn/wolfcode/mq/MQConstant.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-parent/shop-provider/seckill-server/src/main/java/cn/wolfcode/mq/OrderMQResult.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-parent/shop-provider/seckill-server/src/main/java/cn/wolfcode/mq/OrderMessage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-parent/shop-provider/seckill-server/src/main/java/cn/wolfcode/service/IOrderInfoService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-parent/shop-provider/seckill-server/src/main/java/cn/wolfcode/service/ISeckillProductService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-parent/shop-provider/seckill-server/src/main/java/cn/wolfcode/service/impl/OrderInfoSeviceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-parent/shop-provider/seckill-server/src/main/java/cn/wolfcode/service/impl/SeckillProductServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-parent/shop-provider/seckill-server/src/main/java/cn/wolfcode/util/DateUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-parent/shop-provider/seckill-server/src/main/java/cn/wolfcode/util/IdGenerateUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-parent/shop-provider/seckill-server/src/main/java/cn/wolfcode/util/UserUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-parent/shop-provider/seckill-server/src/main/java/cn/wolfcode/web/advice/SeckillControllerAdvice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-parent/shop-provider/seckill-server/src/main/java/cn/wolfcode/web/config/WebConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-parent/shop-provider/seckill-server/src/main/java/cn/wolfcode/web/controller/OrderInfoController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-parent/shop-provider/seckill-server/src/main/java/cn/wolfcode/web/controller/OrderPayController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-parent/shop-provider/seckill-server/src/main/java/cn/wolfcode/web/controller/SeckillProductController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-parent/shop-provider/seckill-server/src/main/java/cn/wolfcode/web/feign/IntegralFeignApi.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-parent/shop-provider/seckill-server/src/main/java/cn/wolfcode/web/feign/PayFeignApi.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-parent/shop-provider/seckill-server/src/main/java/cn/wolfcode/web/feign/ProductFeignApi.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-parent/shop-provider/seckill-server/src/main/java/cn/wolfcode/web/feign/SeckillFeignClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-parent/shop-provider/seckill-server/src/main/java/cn/wolfcode/web/feign/fallback/IntegralFeignFallback.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-parent/shop-provider/seckill-server/src/main/java/cn/wolfcode/web/feign/fallback/PayFeignApiFallback.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-parent/shop-provider/seckill-server/src/main/java/cn/wolfcode/web/feign/fallback/ProductFeignFallback.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-parent/shop-provider/seckill-server/src/main/java/cn/wolfcode/web/msg/SeckillCodeMsg.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-parent/shop-provider/seckill-server/src/main/resources/bootstrap.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-parent/shop-uaa/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-parent/shop-uaa/src/main/java/cn/wolfcode/UaaApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-parent/shop-uaa/src/main/java/cn/wolfcode/domain/LoginLog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-parent/shop-uaa/src/main/java/cn/wolfcode/domain/UserLogin.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-parent/shop-uaa/src/main/java/cn/wolfcode/domain/UserResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-parent/shop-uaa/src/main/java/cn/wolfcode/mapper/UserMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-parent/shop-uaa/src/main/java/cn/wolfcode/mapper/UserMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-parent/shop-uaa/src/main/java/cn/wolfcode/mq/MQConstant.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-parent/shop-uaa/src/main/java/cn/wolfcode/mq/MQLoginLogListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-parent/shop-uaa/src/main/java/cn/wolfcode/redis/UaaRedisKey.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-parent/shop-uaa/src/main/java/cn/wolfcode/service/IUserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-parent/shop-uaa/src/main/java/cn/wolfcode/service/impl/UserServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-parent/shop-uaa/src/main/java/cn/wolfcode/util/MD5Util.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-parent/shop-uaa/src/main/java/cn/wolfcode/web/advice/UAAControllerAdvice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-parent/shop-uaa/src/main/java/cn/wolfcode/web/config/WebConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-parent/shop-uaa/src/main/java/cn/wolfcode/web/controller/LoginController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-parent/shop-uaa/src/main/java/cn/wolfcode/web/msg/UAACodeMsg.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-parent/shop-uaa/src/main/resources/bootstrap.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-parent/websocket-server/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-parent/websocket-server/src/main/java/cn/wolfcode/WebsocketServerApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-parent/websocket-server/src/main/java/cn/wolfcode/mq/MQConstants.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-parent/websocket-server/src/main/java/cn/wolfcode/mq/OrderMQResult.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop-parent/websocket-server/src/main/resources/bootstrap.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../图片/image-20201203115903310.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../图片/image-20201203120434228.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../图片/image-20201203120437631.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../图片/image-20201203142918858.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../图片/image-20201203143536265.png" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Yml File" />
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
+  <component name="GithubDefaultAccount">
+    <option name="defaultAccountId" value="cb568dd5-a3f1-4c91-a091-d218bb381fd7" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="$PROJECT_DIR$/../../../../../../download/maven/apache-maven-3.6.3" />
+        <option name="userSettingsFile" value="D:\download\maven\apache-maven-3.6.3\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="jdkForImporter" value="#JAVA_HOME" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="2SrdcIB6clp0N1rHmLlfDQ3f6LK" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="mysql" />
+    <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="Repository.Attach.Annotations" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../shop-parent/shop-provider/aggregator-server/src/main/java/cn/wolfcode/mapper" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.github.ui.GithubSettingsConfigurable" />
+  </component>
+  <component name="ReactorSettings">
+    <option name="notificationShown" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\ZJY\work\code\限时抢购-初始代码\flash_sale-master\shop-parent\shop-provider\aggregator-server\src\main\java\cn\wolfcode\mapper" />
+      <recent name="D:\ZJY\work\code\限时抢购-初始代码\flash_sale-master\shop-parent\shop-provider\aggregator-server\src\main\resources" />
+      <recent name="D:\ZJY\work\code\限时抢购-初始代码\flash_sale-master\shop-parent\shop-provider\aggregator-server\src\main\java\cn\wolfcode\web\feign" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="cn.wolfcode.msg" />
+      <recent name="cn.wolfcode.service" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
+  </component>
+  <component name="RunManager" selected="Spring Boot.ApiGatewayApplication">
+    <configuration default="true" type="JetRunConfigurationType">
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <option name="filePath" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ApiGatewayApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="api-gateway" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.wolfcode.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="cn.wolfcode.ApiGatewayApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FrontendServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="frontend-server" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="cn.wolfcode.FrontendServerApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PayApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="pay-server" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.wolfcode.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="cn.wolfcode.PayApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ProductApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="product-server" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.wolfcode.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="cn.wolfcode.ProductApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SeckillApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="seckill-server" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.wolfcode.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="cn.wolfcode.SeckillApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="WebsocketServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="websocket-server" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.wolfcode.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="cn.wolfcode.WebsocketServerApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Spring Boot.FrontendServerApplication" />
+      <item itemvalue="Spring Boot.WebsocketServerApplication" />
+      <item itemvalue="Spring Boot.ProductApplication" />
+      <item itemvalue="Spring Boot.SeckillApplication" />
+      <item itemvalue="Spring Boot.PayApplication" />
+      <item itemvalue="Spring Boot.ApiGatewayApplication" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Spring Boot.SeckillApplication" />
+        <item itemvalue="Spring Boot.ProductApplication" />
+        <item itemvalue="Spring Boot.WebsocketServerApplication" />
+        <item itemvalue="Spring Boot.ApiGatewayApplication" />
+        <item itemvalue="Spring Boot.PayApplication" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="fa969637-89de-4688-b7b8-b95fadddfa6e" name="Changes" comment="" />
+      <created>1689908712574</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1689908712574</updated>
+      <workItem from="1689908714112" duration="1891000" />
+      <workItem from="1689912237184" duration="660000" />
+      <workItem from="1690158664855" duration="15988000" />
+      <workItem from="1690262000205" duration="18804000" />
+      <workItem from="1690334298804" duration="3552000" />
+      <workItem from="1690358195270" duration="4210000" />
+      <workItem from="1690424001054" duration="7538000" />
+      <workItem from="1690505537774" duration="21859000" />
+      <workItem from="1690764341838" duration="16197000" />
+      <workItem from="1690868759510" duration="8835000" />
+      <workItem from="1690936918433" duration="14450000" />
+      <workItem from="1691027330071" duration="1873000" />
+      <workItem from="1691057785149" duration="287000" />
+      <workItem from="1691110288794" duration="12531000" />
+      <workItem from="1691386626525" duration="12224000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="springcloude demo" />
+    <option name="LAST_COMMIT_MESSAGE" value="springcloude demo" />
+  </component>
+  <component name="XPathView.XPathProjectComponent">
+    <history />
+    <find-history />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>
